@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Jumpy DNC</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <nav class="navbar-brand p-3">
+        <div>
+            <img src="logodnc.svg" alt="DNC" width="100px">
+           
+        </div>
+        <div class="text-center">
+            <img src="logojumpy.svg" width="250px" alt="">
+            <h3 class="text-center text-white">Bem-vindo ao Jumpy!</h3>
+        </div>
+    </nav>
+
+    <main>
+    <div id="formulario" class="container">
+        <form action="">
+            <div class="inp">
+                <label for="">Nome Completo:</label>
+                <input id="nome" type="text" class="form-control" placeholder="Nome Completo" required>
+                <p class="red2" id="erronome">*Campo Obrigatório*</p>
+            </div>
+
+            <div class="inp">
+                <label for="">Email:</label>
+                <input id="email" type="email" class="form-control" placeholder="email@email.com" required>
+                <p class="red2" id="erroemail">*Campo Obrigatório*</p>
+            </div>
+
+            <div class="inp">
+                <label id="" for="fone">Telefone:</label>
+                <input id="tel" type="text" class="form-control" placeholder="(00) 00000-0000" required maxlength="15">
+                <p class="red2"id="errofone">*Campo Obrigatório*</p>
+            </div>
+
+            <div class="inp">
+                <label for="">CPF:</label>
+                <input id="cpf" type="text" required class="form-control" placeholder="000.000.000-00"  maxlength="14">
+                <p class="red2" id="errocpf">*Campo Obrigatório*</p>
+            </div>
+
+            <div class="inp">
+                <label for="">Senha</label>
+                <input id="password" type="password" class="form-control" placeholder="Senha" required>
+                <p class="red2" id="errosenha">*Campo Obrigatório*</p>
+            </div>
+
+            <div id="butt" class="d-grid gap-2">
+                <button type="button" onclick="cadastro()" class="btn btn-primary mt-4">Cadastrar</button>
+                <p class="red" id="rederro">Campos obrigatórios não registrados.</p>
+                <p class="green" id="green">Sucesso!</p>
+            </div>
+        </form>
+    </div>
+    </main>
+
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>

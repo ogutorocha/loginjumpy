@@ -1,0 +1,44 @@
+body {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+#formulario {
+    width: 420px;
+    font-family: raleway;
+    font-size: 12px;
+
+}
+
+input::placeholder {
+    font-size: 10px;
+}
+
+h3 {
+    margin-top: 10pt;
+}
+
+.inp {
+    height: 70px;
+}
+
+.red {
+    color: #e73550;
+    display: none;
+    font-size: 10px;
+}
+
+.red2 {
+    color: #e73550;
+    display: none;
+    font-size: 10px;
+    text-align: right;
+    
+
+}
+
+.green {
+    color: #0f7b0f;
+    display: none;
+    font-size: 10px;
+}
