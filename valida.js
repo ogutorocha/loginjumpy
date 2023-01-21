@@ -23,3 +23,4 @@ const mascaraTelefone = (tele) => {
     tele = tele.replace(/(\d)(\d{4})$/, "$1-$2")
     tel.value = tele 
 }
+
